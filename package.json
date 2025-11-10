@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://DanielVCSoares.github.io/CasaMaterna",
+  "homepage": "https://github.com/DanielVCSoares/casa-materna.git",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
