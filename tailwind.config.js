@@ -2,10 +2,15 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{ts,tsx}", // arquivos TypeScript + React
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brandGreen: "#37806A",
+        brandOrange: "#E46A2D",
+      },
+    },
   },
   plugins: [],
-}
+};
