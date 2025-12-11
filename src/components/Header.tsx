@@ -11,8 +11,8 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setPage }) => {
     const base =
       "nav-link px-3 py-2 rounded-full text-sm font-medium transition-colors duration-200";
     return currentPage === page
-      ? `${base} bg-[#00838F] text-white shadow-md hover:bg-opacity-90`
-      : `${base} text-[#263238] hover:bg-[#E0F7FA]`;
+      ? `${base} bg-[#37806A] text-[#E46A2D] shadow-md hover:bg-opacity-90`
+      : `${base} text-[#E46A2D] hover:bg-[#37806A]`;
   };
 
   return (

@@ -16,7 +16,7 @@ const DoctorCard: React.FC<DoctorCardProps> = ({
   imageSrc,
 }) => (
   <div className="doctor-card bg-white rounded-xl shadow-lg overflow-hidden text-center transition-transform transform hover:scale-[1.02] duration-300">
-    <div className="w-full h-56 bg-[#00838F] bg-opacity-20 flex items-center justify-center overflow-hidden">
+    <div className="w-full h-56 bg-[#37806A] bg-opacity-20 flex items-center justify-center overflow-hidden">
       {imageSrc ? (
         <img
           src={imageSrc}
@@ -24,7 +24,7 @@ const DoctorCard: React.FC<DoctorCardProps> = ({
           className="object-cover w-full h-full"
         />
       ) : (
-        <span className="text-4xl text-[#00838F] font-bold">
+        <span className="text-4xl text-[#E46A2D] font-bold">
           {/* fallback caso não tenha imagem */}
           {name[0]}
         </span>
@@ -32,7 +32,7 @@ const DoctorCard: React.FC<DoctorCardProps> = ({
     </div>
     <div className="p-6">
       <h3 className="text-xl font-bold text-dark-text mb-1">{name}</h3>
-      <p className="text-sm text-[#00838F] font-semibold mb-3">
+      <p className="text-sm text-[#E46A2D] font-semibold mb-3">
         {crm} - {specialty}
       </p>
       <p className="text-gray-600 text-sm">{description}</p>
