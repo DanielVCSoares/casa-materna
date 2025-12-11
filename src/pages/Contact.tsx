@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
     <section id="contactPage" className="page-content py-16 bg-[#E0F7FA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-extrabold text-[#00838F] mb-4">
+          <h2 className="text-4xl font-extrabold text-[#37806A] mb-4">
             Entre em Contato
           </h2>
           <p className="text-xl text-gray-600">
@@ -41,15 +41,15 @@ const Contact: React.FC = () => {
             </h3>
             <div className="space-y-4 text-lg text-gray-700">
               <p className="flex items-center">
-                <Phone className="h-6 w-6 mr-3 text-[#00838F]" />
+                <Phone className="h-6 w-6 mr-3 text-[#E46A2D]" />
                 Telefone: (31) 97191-2061
               </p>
               <p className="flex items-center">
-                <Mail className="h-6 w-6 mr-3 text-[#00838F]" />
+                <Mail className="h-6 w-6 mr-3 text-[#E46A2D]" />
                 E-mail: contato@casamaterna.com.br
               </p>
               <p className="flex items-start">
-                <MapPin className="h-6 w-6 mr-3 mt-1 text-[#00838F] flex-shrink-0" />
+                <MapPin className="h-6 w-6 mr-3 mt-1 text-[#E46A2D] flex-shrink-0" />
                 Endereço: R. Rio Grande do Norte, 53 - Santa Efigênia - Sala XXX <br /> Belo Horizonte, MG
               </p>
               <div className="w-full h-64 md:h-80 rounded-lg overflow-hidden shadow-lg">

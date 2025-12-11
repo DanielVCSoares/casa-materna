@@ -24,14 +24,14 @@ const Home: React.FC<HomeProps> = ({ setPage }) => (
         <p className="text-xl sm:text-2xl text-[#E0F7FA] font-light drop-shadow-md">
           Sua jornada com a confiança e expertise de 4 especialistas em obstetrícia.
         </p>
-        <button onClick={() => setPage("about")} className="mt-8 inline-block bg-white text-[#37806A] font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-gray-100 transition-transform transform hover:scale-105">
+        <button onClick={() => setPage("about")} className="mt-8 inline-block bg-white text-[#E46A2D] font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-gray-100 transition-transform transform hover:scale-105">
           Conheça a Equipe
         </button>
       </div>
     </div>
 
     <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      <h2 className="text-3xl font-bold text-center text-[#37806A] mb-10">Nossa Missão</h2>
+      <h2 className="text-3xl font-bold text-center text-[#E46A2D] mb-10">Nossa Missão</h2>
       <div className="grid md:grid-cols-3 gap-8 text-center">
         <ValueCard icon={<Heart className="h-10 w-10 mx-auto mb-4 text-[#37806A]" />} title="Acolhimento" description="Criamos um ambiente seguro e de suporte para todas as gestantes." />
         <ValueCard icon={<ShieldCheck className="h-10 w-10 mx-auto mb-4 text-[#37806A]" />} title="Segurança" description="Protocolos rigorosos e expertise para garantir a saúde da mãe e do bebê." />
