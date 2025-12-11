@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-    const response = await fetch("https://email-api-ln5c.onrender.com/send", {
+    const response = await fetch("https://email-api-ln5c.onrender.com/send-email", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name, email, message }),
