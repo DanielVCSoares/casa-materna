@@ -8,16 +8,24 @@ const Contact: React.FC = () => {
   const [message, setMessage] = useState<string>("");
   const [formStatus, setFormStatus] = useState<"success" | null>(null);
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Dados do formulário:", { name, email, message });
+    try {
+    const response = await fetch("https://email-api-ln5c.onrender.com/send", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name, email, message }),
+    });
+    if (!response.ok) throw new Error("Erro ao enviar mensagem");
     setFormStatus("success");
-    setTimeout(() => {
-      setName("");
-      setEmail("");
-      setMessage("");
-      setFormStatus(null);
-    }, 3000);
+    setName("");
+    setEmail("");
+    setMessage("");
+    setTimeout(() => setFormStatus(null), 3000);
+    } catch (error) {
+      alert("Erro ao enviar a mensagem. Tente novamente.");
+      console.error(error);
+    }
   };
 
   return (
