@@ -37,7 +37,7 @@ const About: React.FC = () => {
     <section id="aboutPage" className="page-content bg-[#E0F7FA] py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-extrabold text-[#00838F] mb-4">Conheça a Equipe</h2>
+          <h2 className="text-4xl font-extrabold text-[#E46A2D] mb-4">Conheça a Equipe</h2>
           <p className="text-xl text-[#263238] max-w-3xl mx-auto">
             Somos 4 médicas ginecologistas e obstetras unidas pelo propósito de oferecer um cuidado humanizado e de excelência em todas as fases da vida da mulher, com foco especial no ciclo gravídico-puerperal.
           </p>

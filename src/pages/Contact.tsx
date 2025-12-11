@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
                   required
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full border border-gray-300 rounded-md p-2 focus:ring-2 focus:ring-[#00838F] focus:outline-none"
+                  className="w-full border border-gray-300 rounded-md p-2 focus:ring-2 focus:ring-[#37806A] focus:outline-none"
                 />
               </div>
               <div>
@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full border border-gray-300 rounded-md p-2 focus:ring-2 focus:ring-[#00838F] focus:outline-none"
+                  className="w-full border border-gray-300 rounded-md p-2 focus:ring-2 focus:ring-[#37806A] focus:outline-none"
                 />
               </div>
               <div>
@@ -118,12 +118,12 @@ const Contact: React.FC = () => {
                   required
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="w-full border border-gray-300 rounded-md p-2 focus:ring-2 focus:ring-[#00838F] focus:outline-none"
+                  className="w-full border border-gray-300 rounded-md p-2 focus:ring-2 focus:ring-[#37806A] focus:outline-none"
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="bg-[#00838F] text-white font-semibold px-6 py-2 rounded-md hover:bg-opacity-90 transition-colors duration-200"
+                className="bg-[#37806A] text-white font-semibold px-6 py-2 rounded-md hover:bg-opacity-90 transition-colors duration-200"
               >
                 Enviar
               </button>
