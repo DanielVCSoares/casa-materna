@@ -11,7 +11,7 @@ const Home: React.FC<HomeProps> = ({ setPage }) => (
     <div 
       className="hero-section h-[60vh] md:h-[75vh] flex items-center justify-center relative shadow-xl"
       style={{
-        backgroundImage: "url('https://placehold.co/1200x800/80DEEA/ffffff?text=Acolhimento+e+Saúde')",
+        backgroundImage: "url('https://as2.ftcdn.net/v2/jpg/15/50/12/99/1000_F_1550129973_rtHISerPExFZlhV8QmLX64vlvhcu4y7T.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}
