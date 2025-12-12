@@ -15,21 +15,21 @@ const About: React.FC = () => {
       crm: "CRM/MG 67890",
       specialty: "Ginecologia e Patologia Cervical",
       description: "Foco em gestações de alto risco e planejamento familiar avançado.",
-      imageSrc: "/src/assets/Lu.jpeg", // imagem da Dra. Isabella
+      imageSrc: "../assets/Lu.jpeg", // imagem da Dra. Isabella
     },
     {
       name: "Dra. Mariana",
       crm: "CRM/MG 11223",
       specialty: "Obstetrícia e Ultrassonografia",
       description: "Responsável pelo acompanhamento por imagem e cursos de gestantes.",
-      imageSrc: "/src/assets/teste.jpeg", // imagem da Dra. Laura
+      imageSrc: "./assets/teste.jpeg", // imagem da Dra. Laura
     },
     {
       name: "Dra. Natalia",
       crm: "CRM/MG 44556",
       specialty: "Ginecologia e Endoscopia",
       description: "Atua na prevenção, rotinas ginecológicas e acompanhamento de pré-natal.",
-      imageSrc: "/src/assets/logofooter.png", // imagem da Dra. Sofia
+      imageSrc: "/assets/logofooter.png", // imagem da Dra. Sofia
     },
   ];
 
