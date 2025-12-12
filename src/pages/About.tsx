@@ -8,28 +8,28 @@ const About: React.FC = () => {
       crm: "CRM/MG 12345",
       specialty: "Obstetrícia e Ginecologia",
       description: "Especialista em Parto Humanizado e saúde da mulher na adolescência.",
-      imageSrc: "/src/assets/Lala.jpeg", // imagem da Dra. Camila
+      imageSrc: "/casa-materna/src/assets/Lala.jpeg", // imagem da Dra. Camila
     },
     {
       name: "Dra. Luciana Rabelo",
       crm: "CRM/MG 67890",
       specialty: "Ginecologia e Patologia Cervical",
       description: "Foco em gestações de alto risco e planejamento familiar avançado.",
-      imageSrc: "../assets/Lu.jpeg", // imagem da Dra. Isabella
+      imageSrc: "../src/assets/Lu.jpeg", // imagem da Dra. Isabella
     },
     {
       name: "Dra. Mariana",
       crm: "CRM/MG 11223",
       specialty: "Obstetrícia e Ultrassonografia",
       description: "Responsável pelo acompanhamento por imagem e cursos de gestantes.",
-      imageSrc: "./assets/teste.jpeg", // imagem da Dra. Laura
+      imageSrc: "./src/assets/teste.jpeg", // imagem da Dra. Laura
     },
     {
       name: "Dra. Natalia",
       crm: "CRM/MG 44556",
       specialty: "Ginecologia e Endoscopia",
       description: "Atua na prevenção, rotinas ginecológicas e acompanhamento de pré-natal.",
-      imageSrc: "/assets/logofooter.png", // imagem da Dra. Sofia
+      imageSrc: "/src/assets/logofooter.png", // imagem da Dra. Sofia
     },
   ];
 
