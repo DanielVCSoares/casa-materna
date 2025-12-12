@@ -1,6 +1,6 @@
 import React from "react";
 import DoctorCard from "../components/DoctorCard";
-import Lala from '/casa-materna/tree/main/src/assets/Lala.jpeg';
+import Lala from '../assets/Lala.jpeg';
 import Lu from '/casa-materna/tree/main/src/assets/Lu.jpeg';
 import Mari from '/casa-materna/tree/main/src/assets/teste.jpeg';
 import Nati from '/casa-materna/tree/main/src/assets/WhatsApp Image 2025-02-21 at 09.37.24 (1).jpeg';
