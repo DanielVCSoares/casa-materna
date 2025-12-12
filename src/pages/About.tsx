@@ -1,9 +1,9 @@
 import React from "react";
 import DoctorCard from "../components/DoctorCard";
-import Lala from '../assets/Lala.jpeg';
-import Lu from '../assets/Lu.jpeg';
+import Lala from '../assets/lala.jpeg';
+import Lu from '../assets/lu.jpeg';
 import Mari from '../assets/teste.jpeg';
-import Nati from '../assets/WhatsApp Image 2025-02-21 at 09.37.24 (1).jpeg';
+import Nati from '../assets/natifake.jpeg';
 const About: React.FC = () => {
   const doctors = [
     {
